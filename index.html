@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eventful - Producción de eventos, mecánica teatral y soluciones integrales.">
+  <title>Eventful | Producción de Eventos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#inicio" aria-label="Eventful">
+      <img class="logo" src="logo.png" alt="Eventful">
+    </a>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#contacto" class="nav-cta">Cotizar evento</a>
+    </nav>
+
+    <button class="menu" onclick="toggleMenu()" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <div class="eyebrow">Eventos · Producción · Mecánica Teatral</div>
+      <h1>Convertimos tus ideas en <span>experiencias.</span></h1>
+      <p>
+        Producción integral de eventos con planificación, montaje, tecnología
+        y ejecución técnica para que cada detalle suceda como lo imaginaste.
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-primary" href="#contacto">Solicitar cotización</a>
+        <a class="btn btn-outline" href="#servicios">Ver servicios</a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal">
+      <div class="stage">
+        <div class="stage-mark">Event<span>ful</span></div>
+      </div>
+
+      <div class="card-content">
+        <strong>Producción que se siente.</strong>
+        <p>
+          Diseñamos y ejecutamos eventos corporativos, institucionales,
+          sociales y experiencias especiales.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">Nuestros servicios</div>
+      <h2>Todo lo que tu evento necesita.</h2>
+      <p>Un solo equipo para planificar, producir y operar cada etapa.</p>
+    </div>
+
+    <div class="service-grid">
+      <article class="service reveal">
+        <div class="icon">✦</div>
+        <h3>Producción integral</h3>
+        <p>Planificación, coordinación de proveedores, logística y supervisión general.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">◈</div>
+        <h3>Escenografía & montaje</h3>
+        <p>Diseño de espacios, estructuras, escenarios, ambientación y montaje técnico.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">◉</div>
+        <h3>Audio, video & luces</h3>
+        <p>Soluciones audiovisuales para presentaciones, shows, conferencias y activaciones.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">↗</div>
+        <h3>Mecánica teatral</h3>
+        <p>Diseño y operación de sistemas de movimiento, rigging y elementos escénicos.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">⌁</div>
+        <h3>Eventos corporativos</h3>
+        <p>Lanzamientos, convenciones, ceremonias, reuniones y activaciones.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">★</div>
+        <h3>Experiencias especiales</h3>
+        <p>Propuestas creativas y producción personalizada para eventos únicos.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="nosotros">
+  <div class="container about-grid">
+
+    <div class="about-panel reveal">
+      <div class="big">360°</div>
+      <h3>Producción de principio a fin</h3>
+      <p>
+        Integramos creatividad, operación y técnica para que tengas
+        un único aliado durante todo el proyecto.
+      </p>
+    </div>
+
+    <div class="reveal">
+      <div class="kicker">Por qué Eventful</div>
+      <h2>Precisión detrás de cada gran momento.</h2>
+      <p>
+        Nos enfocamos en que la experiencia final sea impecable,
+        mientras nuestro equipo se encarga de la complejidad detrás del escenario.
+      </p>
+
+      <div class="checks">
+        <div class="check">
+          <b>✓</b>
+          <div>
+            <strong>Planificación detallada</strong>
+            <span>Definimos tiempos, responsables, recursos y necesidades técnicas.</span>
+          </div>
+        </div>
+
+        <div class="check">
+          <b>✓</b>
+          <div>
+            <strong>Equipo especializado</strong>
+            <span>Coordinación entre producción, técnica, montaje y operación.</span>
+          </div>
+        </div>
+
+        <div class="check">
+          <b>✓</b>
+          <div>
+            <strong>Ejecución en vivo</strong>
+            <span>Supervisión y respuesta rápida durante cada momento del evento.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="gallery" id="eventos">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <div class="kicker">Eventos y trabajos</div>
+      <h2>Lo que sucede detrás del escenario.</h2>
+      <p>Estas son imágenes de ejemplo. Puedes reemplazarlas por fotografías reales.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img src="evento-1.svg" alt="Producción de eventos">
+        <span>Producción</span>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="evento-2.svg" alt="Escenografía y montaje">
+        <span>Escenografía</span>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="evento-3.svg" alt="Audio, video e iluminación">
+        <span>Audio & Video</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="proceso">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <div class="kicker">Cómo trabajamos</div>
+      <h2>De la idea al aplauso.</h2>
+      <p>Un proceso claro para que tengas control y tranquilidad.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="step reveal">
+        <div class="num">01 / IDEA</div>
+        <h3>Escuchamos</h3>
+        <p>Entendemos objetivo, público, espacio, presupuesto y concepto.</p>
+      </div>
+
+      <div class="step reveal">
+        <div class="num">02 / DISEÑO</div>
+        <h3>Proponemos</h3>
+        <p>Construimos la propuesta creativa, técnica y operativa.</p>
+      </div>
+
+      <div class="step reveal">
+        <div class="num">03 / PRODUCCIÓN</div>
+        <h3>Montamos</h3>
+        <p>Coordinamos proveedores, equipos, estructuras, pruebas y personal.</p>
+      </div>
+
+      <div class="step reveal">
+        <div class="num">04 / EVENTO</div>
+        <h3>Ejecutamos</h3>
+        <p>Operamos y supervisamos para que todo ocurra en el momento exacto.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div>
+        <h2>¿Tienes un evento en mente?</h2>
+        <p>Cuéntanos qué quieres lograr y preparemos una propuesta a la medida.</p>
+      </div>
+      <a class="btn" href="#contacto">Hablemos de tu evento →</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <div class="kicker">Contacto</div>
+      <h2>Hagamos que suceda.</h2>
+      <p>Completa el formulario para solicitar información.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card reveal">
+        <div class="contact-item">
+          <small>Empresa</small>
+          <strong>Eventful</strong>
+        </div>
+
+        <div class="contact-item">
+          <small>Especialidad</small>
+          <strong>Producción de eventos y mecánica teatral</strong>
+        </div>
+
+        <div class="contact-item">
+          <small>Web</small>
+          <strong>eventful.com.pe</strong>
+        </div>
+
+        <div class="contact-item">
+          <small>Email</small>
+          <strong>contacto@eventful.com.pe</strong>
+        </div>
+      </div>
+
+      <div class="contact-card reveal">
+        <form onsubmit="sendForm(event)">
+          <input id="name" type="text" placeholder="Nombre" required>
+          <input id="email" type="email" placeholder="Correo electrónico" required>
+          <input id="phone" type="tel" placeholder="Teléfono / WhatsApp" required>
+          <input id="event" type="text" placeholder="Tipo de evento">
+          <input id="date" type="date">
+          <textarea id="message" placeholder="Cuéntanos sobre tu evento" required></textarea>
+          <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<a class="whatsapp" href="https://wa.me/51999999999" target="_blank" rel="noopener">
+  WhatsApp
+</a>
+
+<footer>
+  <div class="container footer-inner">
+    <img class="footer-logo" src="logo.png" alt="Eventful">
+    <span>© <span id="year"></span> Eventful. Producción de eventos.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  function toggleMenu() {
+    const nav = document.querySelector("nav");
+    if (nav.style.display === "flex") {
+      nav.removeAttribute("style");
+    } else {
+      nav.style.display = "flex";
+      nav.style.position = "absolute";
+      nav.style.top = "76px";
+      nav.style.left = "0";
+      nav.style.right = "0";
+      nav.style.padding = "20px";
+      nav.style.background = "#fff";
+      nav.style.flexDirection = "column";
+      nav.style.alignItems = "stretch";
+    }
+  }
+
+  function sendForm(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const eventType = document.getElementById("event").value || "Evento";
+    const date = document.getElementById("date").value || "Por definir";
+    const message = document.getElementById("message").value;
+
+    const subject = encodeURIComponent("Solicitud de cotización - " + eventType);
+
+    const body = encodeURIComponent(
+      "Hola Eventful,%0A%0A" +
+      "Nombre: " + name + "%0A" +
+      "Correo: " + email + "%0A" +
+      "Teléfono: " + phone + "%0A" +
+      "Tipo de evento: " + eventType + "%0A" +
+      "Fecha: " + date + "%0A%0A" +
+      "Detalles:%0A" + message
+    );
+
+    window.location.href =
+      "mailto:contacto@eventful.com.pe?subject=" + subject + "&body=" + body;
+  }
+</script>
+
+</body>
+</html>
